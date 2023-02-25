@@ -2042,6 +2042,12 @@ blockquote {
  align-items:center;
  width: 35%;
 }
+
+c-logo-img img{
+  width: 60px;
+  height: 150px;
+}
+
 .c-header-nav {
  position:relative;
  z-index:600;
@@ -3020,7 +3026,8 @@ blockquote {
  -webkit-box-align:start;
  -webkit-align-items:flex-start;
  -ms-flex-align:start;
- align-items:flex-start 
+ align-items:flex-start; 
+ padding-top: 2.8rem;
 }
 .o-row.hm-solutions {
  position:relative;
@@ -3083,7 +3090,9 @@ blockquote {
  -webkit-box-align:end;
  -webkit-align-items:flex-end;
  -ms-flex-align:end;
- align-items:flex-end 
+ align-items:flex-end; 
+ padding-top: 2.8rem;
+ padding-bottom: 2.8rem;
 }
 .o-row.swiper.hm-solutions {
  position:static;
