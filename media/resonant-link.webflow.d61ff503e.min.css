@@ -2024,7 +2024,7 @@ blockquote {
  -ms-transform:translate(1.25em,.75em);
  transform:translate(1.25em,.75em);
  color:#fafbff;
- mix-blend-mode:normal; 
+ mix-blend-mode:normal 
 }
 .c-logo-img {
  z-index:200;
@@ -2041,16 +2041,7 @@ blockquote {
  -ms-flex-align:center;
  align-items:center;
  width: 35%;
-  
 }
-
-.c-logo-img img {
-   height: 60px !important;
-   width: 120px;
-   /*! position: relative; */
-   /*! index-z: 1; */
-  }
-
 .c-header-nav {
  position:relative;
  z-index:600;
@@ -2522,7 +2513,10 @@ blockquote {
  font-size:3em;
  line-height:.96;
  font-weight:400;
- letter-spacing:0 
+ letter-spacing:0; 
+ font-size: 45rem;
+ justify-content: center;
+ /*! align-items: center; */
 }
 .t-display-5.swiper-pag {
  position:absolute;
@@ -3026,9 +3020,7 @@ blockquote {
  -webkit-box-align:start;
  -webkit-align-items:flex-start;
  -ms-flex-align:start;
- align-items:flex-start; 
- /*! top: ; */
- padding-top: 2.8rem;
+ align-items:flex-start 
 }
 .o-row.hm-solutions {
  position:relative;
@@ -3091,9 +3083,7 @@ blockquote {
  -webkit-box-align:end;
  -webkit-align-items:flex-end;
  -ms-flex-align:end;
- align-items:flex-end; 
- padding-top: 2.5rem;
- padding-bottom: 2.5rem;
+ align-items:flex-end 
 }
 .o-row.swiper.hm-solutions {
  position:static;
@@ -3445,7 +3435,7 @@ blockquote {
 }
 .z-index-3 {
  position:relative;
- z-index:15; 
+ z-index:15 
 }
 .z-index-4 {
  position:relative;
@@ -5528,7 +5518,9 @@ blockquote {
  padding-right:7em;
  border-color:#141519;
  -webkit-transition:color .6s,background-color .6s;
- transition:color .6s,background-color .6s 
+ transition:color .6s,background-color .6s; 
+ align-items: center;
+ /*! justify-content: center; */
 }
 .c-card.download:hover {
  background-color:#141519;
