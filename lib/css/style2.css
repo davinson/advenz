@@ -305,10 +305,11 @@ align-self: center;
 align-self: flex-end;
 }
 .c-logo-link.is-light {
-mix-blend-mode: difference;
+/* mix-blend-mode: difference; */
+
 }
 .c-logo-link.is-dark {
-color: var(--carbon) !important;
+color: var(--cloud) !important;
 }
 .c-more:hover > .c-list-col-item:not(:hover) {
 opacity: 0.4 !important;
