@@ -2024,7 +2024,7 @@ blockquote {
  -ms-transform:translate(1.25em,.75em);
  transform:translate(1.25em,.75em);
  color:#fafbff;
- mix-blend-mode:normal 
+ mix-blend-mode:normal; 
 }
 .c-logo-img {
  z-index:200;
@@ -2041,7 +2041,16 @@ blockquote {
  -ms-flex-align:center;
  align-items:center;
  width: 35%;
+  
 }
+
+.c-logo-img img {
+   height: 60px !important;
+   width: 120px;
+   /*! position: relative; */
+   /*! index-z: 1; */
+  }
+
 .c-header-nav {
  position:relative;
  z-index:600;
@@ -3017,7 +3026,9 @@ blockquote {
  -webkit-box-align:start;
  -webkit-align-items:flex-start;
  -ms-flex-align:start;
- align-items:flex-start 
+ align-items:flex-start; 
+ /*! top: ; */
+ padding-top: 2.8rem;
 }
 .o-row.hm-solutions {
  position:relative;
@@ -3080,7 +3091,9 @@ blockquote {
  -webkit-box-align:end;
  -webkit-align-items:flex-end;
  -ms-flex-align:end;
- align-items:flex-end 
+ align-items:flex-end; 
+ padding-top: 2.5rem;
+ padding-bottom: 2.5rem;
 }
 .o-row.swiper.hm-solutions {
  position:static;
@@ -3432,7 +3445,7 @@ blockquote {
 }
 .z-index-3 {
  position:relative;
- z-index:15 
+ z-index:15; 
 }
 .z-index-4 {
  position:relative;
