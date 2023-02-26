@@ -3027,7 +3027,7 @@ c-logo-img img{
  -webkit-align-items:flex-start;
  -ms-flex-align:start;
  align-items:flex-start; 
- padding-top: 2.8rem;
+ padding-top: 8rem;
 }
 .o-row.hm-solutions {
  position:relative;
@@ -3091,8 +3091,8 @@ c-logo-img img{
  -webkit-align-items:flex-end;
  -ms-flex-align:end;
  align-items:flex-end; 
- padding-top: 2.8rem;
- padding-bottom: 2.8rem;
+ padding-top: 4rem;
+ padding-bottom: 4rem;
 }
 .o-row.swiper.hm-solutions {
  position:static;
