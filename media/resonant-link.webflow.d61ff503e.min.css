@@ -6622,25 +6622,25 @@ color:#fff;
 .c-video.is-2 {
  -webkit-transform:translate(0,4em);
  -ms-transform:translate(0,4em);
- transform:translate(0,4em) 
+ transform:translate(0,4em); 
 }
 .c-video.is-1 {
- -webkit-transform:rotate(-15deg);
+ /*! -webkit-transform:rotate(-15deg); */
  -ms-transform:rotate(-15deg);
- transform:rotate(-15deg) 
+ /*! transform:rotate(-15deg) */ 
 }
 .c-video.is-4 {
- -webkit-transform:rotate(-5deg);
+ /*! -webkit-transform:rotate(-5deg); */
  -ms-transform:rotate(-5deg);
- transform:rotate(-5deg) 
+ /*! transform:rotate(-5deg) */ 
 }
 .c-video-wrap {
  position:absolute;
  width:100%;
- padding-top:100%;
+ padding-top:900px;
  -webkit-transform:translate(-1.5em,0);
  -ms-transform:translate(-1.5em,0);
- transform:translate(-1.5em,0) 
+ transform:translate(-1.5em,0); 
 }
 .c-video-wrap.industrial {
  left:0;
@@ -9331,4 +9331,18 @@ color:#fff;
 .c-video video{
     min-width: 100%;
   min-height: 100%;
+}
+
+ .t-display-7::after {
+  top: 65%;
+  height: 2px;
+  width: 0%;
+  left: 5%;
+  background-color: rgba(255, 255, 255, 0.6);
+    transition: 0.5s ease all .3s;
+}
+
+t-display-7:hover {
+  width: 90%;
+    transition: 0.3s ease all;
 }
