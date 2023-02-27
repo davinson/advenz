@@ -9245,7 +9245,7 @@ color:#fff;
   background-size: cover;
   background-position: center center;
   max-height:316px;
-  max-width:444px;
+  max-width:444px; opacity:.6;
 }
 
 #w-node-d2d16d4c-54a5-54f9-a290-720ca28a0305-d9aae086{
@@ -9259,7 +9259,7 @@ color:#fff;
   background-size: cover;
   background-position: center center;
   max-height:316px;
-  max-width:444px;
+  max-width:444px; opacity:.6;
 }
 
 #w-node-_0f7dca71-f3b7-b33c-ff85-fe34b7498da7-d9aae086{
@@ -9273,7 +9273,7 @@ color:#fff;
   background-size: cover;
   background-position: center center;
   max-height:316px;
-  max-width:444px;
+  max-width:444px; opacity:.6;
 }
 
 #w-node-_550d898a-f264-f17e-250b-d591f6d243a9-d9aae086{
@@ -9287,7 +9287,7 @@ color:#fff;
   background-size: cover;
   background-position: center center;
   max-height:316px;
-  max-width:444px;
+  max-width:444px; opacity:.6;
 }
 
 #w-node-b3735a09-29f8-9190-f762-e8c45305946e-d9aae086{
@@ -9301,7 +9301,7 @@ color:#fff;
   background-size: cover;
   background-position: center center;
   max-height:316px;
-  max-width:444px;
+  max-width:444px; opacity:.6;
 }
 
 #w-node-fdc98abd-2b4e-4718-5758-af98972831cf-d9aae086{
@@ -9316,6 +9316,7 @@ color:#fff;
   background-position: center center;
   max-height:316px;
   max-width:444px;
+  opacity:.6;
 }
 
 
@@ -9333,16 +9334,52 @@ color:#fff;
   min-height: 100%;
 }
 
- .t-display-7::after {
-  top: 65%;
-  height: 2px;
-  width: 0%;
-  left: 5%;
-  background-color: rgba(255, 255, 255, 0.6);
-    transition: 0.5s ease all .3s;
+ /* mostrar{  */
+ /* img{ */
+     /* visibility:visible  */
+ /* }  */
+/* } */
+ /* ocultar{  */
+ /* img{ */
+    /* visibility:hidden  */
+ /* }  */
+/* } */
+
+/* .c-section card::after img{ */
+  /* visibility:hidden; */
+/* } */
+
+
+/* .c-section .c-card:hover img{ */
+    /* visibility:visible; */
+/* } */
+
+.c-section .t-display-7 {
+  display: inline-block;
+  padding-bottom: 0.25rem; /* defines the space between text and underline */
+  position: relative;
 }
 
-t-display-7:hover {
-  width: 90%;
-    transition: 0.3s ease all;
+.c-section .t-display-7::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: blue;
+  transition: width 0.25s ease-out;
 }
+.c-section .t-display-7:hover::before {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
+/* mostrar:.c-section .c-card::before { */
+  /* visibility:visible */
+/* } */
+
+/* .c-section .c-card:hover::before { */
+   /* visibility:hidden */
+/* } */
