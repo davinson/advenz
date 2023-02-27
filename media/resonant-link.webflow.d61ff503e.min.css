@@ -2948,7 +2948,8 @@ color:#fff;
  grid-column-gap:2.5em;
  grid-row-gap:2.5em;
  -ms-grid-columns:1fr 1fr 1fr;
- grid-template-columns:1fr 1fr 1fr 
+ grid-template-columns:1fr 1fr 1fr; 
+ padding-bottom: 2rem;
 }
 .o-grid.datasheet {
  grid-column-gap:3em;
