@@ -757,6 +757,7 @@ textarea.w-select {
   left:auto;
   right:auto 
  }
+ 
 }
 @media screen and (max-width:767px) {
  .w-hidden-main,
@@ -5123,7 +5124,7 @@ c-logo-img img{
  -webkit-box-pack:justify;
  -webkit-justify-content:space-between;
  -ms-flex-pack:justify;
- justify-content:space-between 
+ justify-content:center;
 }
 .margin-20 {
  margin-bottom:1.25em 
