@@ -390,8 +390,7 @@ grid-template-columns: 1fr !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  max-height:446px;
-  max-width:680px;
+ 
   color:#fff;
 }
 
@@ -406,8 +405,7 @@ grid-template-columns: 1fr !important;
   background-size: cover;
   background-position: center center;
  
-  max-height:446px;
-  max-width:680px;
+  
   color:#fff;
 }
 
@@ -422,8 +420,7 @@ grid-template-columns: 1fr !important;
   background-size: cover;
   background-position: center center;
  
-  max-height:446px;
-  max-width:680px;
+ 
   color:#fff;
 }
 
@@ -438,8 +435,7 @@ grid-template-columns: 1fr !important;
   background-size: cover;
   background-position: center center;
  
-  max-height:446px;
-  max-width:680px;
+  
   color:#fff;
 }
 
