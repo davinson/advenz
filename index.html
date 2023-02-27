@@ -1197,6 +1197,7 @@
         <script src="https://webflow-assets.sfo2.cdn.digitaloceanspaces.com/resonant-link/ScrollSmoother.min.js"></script>
         <script src="https://webflow-assets.sfo2.cdn.digitaloceanspaces.com/resonant-link/split-type.js"></script>
         <script src="https://webflow-assets.sfo2.cdn.digitaloceanspaces.com/resonant-link/script.js"></script>
+         <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
         <!-- Google Tag Manager (noscript) -->
         <noscript>
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P68LPN2" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -1245,8 +1246,27 @@
          	pageLoadMobile();
            mobilePauseContent();
          }
+         
+       
+         
       </script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script >
+          $(document).ready(function () {
+            $('#w-node-_47a3ad97-3cf7-eed4-9591-6b5c6b198665-d9aae086').mouseenter(function(){
+        <!-- img.setAttribute("style", `visibility:visible`);  -->
+    });
+
+    // El cursor sale del menú
+    $('#w-node-_47a3ad97-3cf7-eed4-9591-6b5c6b198665-d9aae086').mouseleave(function(){
+  <!-- img.setAttribute("style", `visibility:hidden`);  -->
+   
+    });
+    
+         }
+         
+        
+        </script>
         <script>
          // Testimonials slider
          let teSwiper = new Swiper(".swiper.te", {
