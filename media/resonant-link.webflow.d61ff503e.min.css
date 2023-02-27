@@ -9224,7 +9224,7 @@ c-logo-img img{
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('https://i.imgur.com/wBWzOZo.png');
+  background-image: url('https://source.unsplash.com/random/444x316?sig=1');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -9238,7 +9238,7 @@ c-logo-img img{
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('https://i.imgur.com/wBWzOZo.png');
+  background-image: url('https://source.unsplash.com/random/444x316?sig=2');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -9252,7 +9252,7 @@ c-logo-img img{
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('https://i.imgur.com/wBWzOZo.png');
+  background-image: url('https://source.unsplash.com/random/444x316?sig=3');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -9266,7 +9266,7 @@ c-logo-img img{
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('https://i.imgur.com/wBWzOZo.png');
+  background-image: url('https://source.unsplash.com/random/444x316?sig=4');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -9280,7 +9280,7 @@ c-logo-img img{
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('https://i.imgur.com/wBWzOZo.png');
+  background-image: url('https://source.unsplash.com/random/444x316?sig=5');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -9294,10 +9294,25 @@ c-logo-img img{
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('https://i.imgur.com/wBWzOZo.png');
+  background-image: url('https://source.unsplash.com/random/444x316?sig=6');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   max-height:316px;
   max-width:444px;
+}
+
+
+.c-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.c-video video{
+    min-width: 100%;
+  min-height: 100%;
 }
