@@ -731,38 +731,44 @@
                         </div>
                         <div class="o-grid perks">
                             <div fade="" id="w-node-_47a3ad97-3cf7-eed4-9591-6b5c6b198665-d9aae086" class="c-card perks">
-                                <img src="media/1.png" style="align-items: center; text-align: center; visibility: hidden;"/>
-                                <h3 class="t-display-7">Cost Advantages</h3>
+                                <div class="oculto" id="oc-1">
+                                <img src="media/1.png" style="align-items: center; text-align: center;"/></div>
+                                <h3 class="t-display-7" id="texto-1">Cost Advantages</h3>
                                 <div class="c-card-top">
 </div>
                             </div>
                             <div fade="" id="w-node-d2d16d4c-54a5-54f9-a290-720ca28a0305-d9aae086" class="c-card perks crd-2" style="grid-area:1 / 2 / 2 / 3;">
-                                <img src="media/2.png" style="visibility: hidden;"/>
-                                <h3 class="t-display-7">Focused Competencies</h3>
+                                <div class="oculto" id="oc-2">
+                                <img src="media/2.png"/></div>                                 
+                                <h3 class="t-display-7" id="texto-2">Focused Competencies</h3>
                                 <div class="c-card-top">
 </div>
                             </div>
                             <div fade="" id="w-node-_0f7dca71-f3b7-b33c-ff85-fe34b7498da7-d9aae086" class="c-card perks crd-3">
-                                <img src="media/3.png" style="visibility: hidden;"/>
-                                <h3 class="t-display-7">Efficiency Gains</h3>
+                                 <div class="oculto" id="oc-3">
+                                <img src="media/3.png"/></div>
+                                <h3 class="t-display-7" id="texto-3">Efficiency Gains</h3>
                                 <div class="c-card-top">
 </div>
                             </div>
                             <div fade="" id="w-node-_550d898a-f264-f17e-250b-d591f6d243a9-d9aae086" class="c-card perks crd-4">
-                                <img src="media/4.png" style="visibility: hidden;"/>
-                                <h3 class="t-display-7">Managed Risks</h3>
+                                <div class="oculto" id="oc-4">
+                                <img src="media/4.png"/></div>
+                                <h3 class="t-display-7" id="texto-4">Managed Risks</h3>
                                 <div class="c-card-top">
 </div>
                             </div>
                             <div fade="" id="w-node-b3735a09-29f8-9190-f762-e8c45305946e-d9aae086" class="c-card perks crd-5">
-                                <img src="media/5.png" style="visibility: hidden;"/>
-                                <h3 class="t-display-7">Wider Access</h3>
+                                 <div class="oculto" id="oc-5">
+                                <img src="media/5.png"/></div>
+                                <h3 class="t-display-7" id="texto-5">Wider Access</h3>
                                 <div class="c-card-top">
 </div>
                             </div>
                             <div fade="" id="w-node-fdc98abd-2b4e-4718-5758-af98972831cf-d9aae086" class="c-card perks crd-6">
-                                <img src="media/6.png" style="visibility: hidden;"/>
-                                <h3 class="t-display-7">Greater Flexibility</h3>
+                                <div class="oculto" id="oc-6">
+                                <img src="media/6.png"/></div>
+                                <h3 class="t-display-7" id="texto-6">Greater Flexibility</h3>
                                 <div class="c-card-top">
 </div>
                             </div>
@@ -1253,14 +1259,15 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
         <script >
           $(document).ready(function () {
-            $('#w-node-_47a3ad97-3cf7-eed4-9591-6b5c6b198665-d9aae086').mouseenter(function(){
-        <!-- img.setAttribute("style", `visibility:visible`);  -->
+            $('.c-card').mouseenter(function(){
+       oculto.setAttribute("style", `visibility:hidden`);
+       
     });
 
     // El cursor sale del menú
-    $('#w-node-_47a3ad97-3cf7-eed4-9591-6b5c6b198665-d9aae086').mouseleave(function(){
-  <!-- img.setAttribute("style", `visibility:hidden`);  -->
-   
+    $('.c-card').mouseleave(function(){
+   <!-- oculto.setAttribute("style", `visibility:hidden`); -->
+    <!-- $(".oculto").attr("opacity","0"); -->
     });
     
          }
