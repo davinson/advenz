@@ -9354,13 +9354,13 @@ color:#fff;
     /* visibility:visible; */
 /* } */
 
-.c-section .t-display-7 {
+.c-card .t-display-7 {
   display: inline-block;
   padding-bottom: 0.25rem; /* defines the space between text and underline */
   position: relative;
 }
 
-.c-section .t-display-7::before {
+.c-card .t-display-7::before {
   content: "";
   position: absolute;
   right: 0;
@@ -9370,7 +9370,7 @@ color:#fff;
   background-color: blue;
   transition: width 0.25s ease-out;
 }
-.c-section .t-display-7:hover::before {
+.c-card .t-display-7:hover::before {
   width: 100%;
   left: 0;
   right: auto;
@@ -9383,3 +9383,13 @@ color:#fff;
 /* .c-section .c-card:hover::before { */
    /* visibility:hidden */
 /* } */
+.oculto{
+    opacity:0;
+   
+}
+
+.c-card:hover .oculto{
+  
+    opacity:1;
+   
+}
