@@ -30,7 +30,29 @@
       </script>
         <!-- End Google Tag Manager -->
         <style>
-         
+         .fullscreen-video {
+   width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-video {
+    width: auto;
+    height: 100%;
+  }
+}
       </style>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
         <script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsload@1/cmsload.js"></script>
@@ -1005,71 +1027,175 @@
                         </div>
                     </div>
                 </div>
-                <div full-height="" class="c-section hm-app wf-section">
-                    <div parallax="" class="c-img-contain app">
-                        <video loop muted autoplay class="fullscreen-video" width="100%">
-                            <source src="media/set-your-mind-free.mp4" type="video/mp4">
-                        </video>
-                        <div class="c-overlay hide-desktop"></div>
-                    </div>
-                    <div class="o-container z-index-1 hm-app">
-                        <div class="c-hm-app">
-                            <div class="o-row app-header">
-                                <div fade="" class="o-col _w-4">
-                                    <div class="t-micro-2">Our 
-                                        <br/>approach
-                                    </div>
-                                </div>
-                                <div fade="" class="o-col _w-12 sm-w-18">
-                                    <h2 class="t-display-3">Set your mind free with qualified professionals</h2>
+                <!-- <div full-height="" class="c-section hm-app wf-section"> -->
+                   <!-- <div parallax="" class="c-img-contain app"> -->
+                  <!-- <video style="width: 100%; position: absolute;left:0;top: 0;height: 100%; z-index: -1;" "class="plyr_video" playsinline muted autoplay loop> -->
+                             <!-- <source src="media/set-your-mind-free.mp4" type="video/mp4">     -->
+                            <!-- </video> -->
+                  <!-- <div class="c-overlay hide-desktop"></div> -->
+               <!-- </div> -->
+                
+                
+                    <!-- <!-- <div no-click="" class="c-reel w-embed"> --> 
+                            <!-- <!-- <video style="width: 100%; position: absolute;left:0;top: 0;height: 100%; z-index: -1;" "class="plyr_video" playsinline controls muted autoplay loop> -->
+                             <!-- <!-- <source src="media/set-your-mind-free.mp4" type="video/mp4">     -->
+                            <!-- <!-- </video> --> 
+                        <!-- <!-- </div> --> 
+                    
+                        <!-- <div class="c-overlay hide-desktop"></div> -->
+                    <!-- <!-- <div parallax="" class="c-img-contain app"> </div> --> 
+                    <!-- <div class="o-container z-index-1 hm-app"> -->
+                        <!-- <div class="c-hm-app"> -->
+                            <!-- <div class="o-row app-header"> -->
+                                <!-- <div fade="" class="o-col _w-4"> -->
+                                    <!-- <div class="t-micro-2">Our  -->
+                                        <!-- <br/>approach -->
+                                    <!-- </div> -->
+                                <!-- </div> -->
+                                <!-- <div fade="" class="o-col _w-12 sm-w-18"> -->
+                                    <!-- <h2 class="t-display-3">Set your mind free with qualified professionals</h2> -->
+                                <!-- </div> -->
+                            <!-- </div> -->
+                            <!-- <div class="o-row hm-app"> -->
+                                <!-- <div class="o-col _w-14 md-w-12 hide-landscape"></div> -->
+                                <!-- <div fade="" class="o-col _w-6 md-w-10 sm-w-20"> -->
+                                    <!-- <div class="margin-40"> -->
+                                        <!-- <p class="t-body-2">Found something that we can help you with? Write in  -->
+                              <!-- to find out more!.</p> -->
+                                    <!-- </div> -->
+                                    <!-- <div class="o-col"> -->
+                                        <!-- <a id="w-node-_060fbb9c-011c-33d0-6735-e7a308e3a0e8-08e3a0e8" href="#" class="c-btn is-main w-inline-block"> <div class="c-btn-inner is-main"> -->
+                                                <!-- <div class="c-btn-txt"> -->
+                                                    <!-- <p class="t-label-4 is-1">GET IN TOUCH </p> -->
+                                                    <!-- <p no-click="" class="t-label-4 is-2"> </p> -->
+                                                <!-- </div> -->
+                                                <!-- <div class="c-btn-icon w-embed"> -->
+                                                    <!-- <svg width="1.5em" height="1.5em" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"> -->
+                                                        <!-- <path d="M22.4883 11.5H2.48828M22.4883 11.5L13.4883 3M22.4883 11.5L13.4883 20" stroke="currentColor" stroke-width="1.5"/> -->
+                                                    <!-- </svg> -->
+                                                <!-- </div> -->
+                                            <!-- </div> </a> -->
+                                    <!-- </div> -->
+                                <!-- </div> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+                    <!-- <div vertical-text="" no-click="" class="c-ornement app-rt hide-landscape"> -->
+                        <!-- <div vertical-text="" class="c-ornement-wrap hm-app"> -->
+                            <!-- <div decoration="" class="t-micro-2">MSRS</div> -->
+                            <!-- <div decoration="" class="c-ornement-icon hm-hero w-embed"> -->
+                                <!-- <svg width="10" height="34" viewBox="0 0 10 34" fill="none" xmlns="http://www.w3.org/2000/svg"> -->
+                                    <!-- <rect x="9.5" width="1" height="9" transform="rotate(90 9.5 0)" fill="#E6E7E9"/> -->
+                                    <!-- <rect x="9.5" y="3" width="1" height="9" transform="rotate(90 9.5 3)" fill="#E6E7E9"/> -->
+                                    <!-- <rect x="9.5" y="6" width="1" height="9" transform="rotate(90 9.5 6)" fill="#E6E7E9"/> -->
+                                    <!-- <rect x="9.5" y="9" width="1" height="9" transform="rotate(90 9.5 9)" fill="#E6E7E9"/> -->
+                                    <!-- <rect x="9.5" y="12" width="1" height="9" transform="rotate(90 9.5 12)" fill="#E6E7E9"/> -->
+                                    <!-- <rect x="9.5" y="15" width="1" height="9" transform="rotate(90 9.5 15)" fill="#E6E7E9"/> -->
+                                    <!-- <rect x="9.5" y="18" width="1" height="9" transform="rotate(90 9.5 18)" fill="#E6E7E9"/> -->
+                                    <!-- <rect x="9.5" y="21" width="1" height="9" transform="rotate(90 9.5 21)" fill="#E6E7E9"/> -->
+                                    <!-- <rect x="9.5" y="24" width="1" height="9" transform="rotate(90 9.5 24)" fill="#E6E7E9"/> -->
+                                    <!-- <rect x="9.5" y="27" width="1" height="9" transform="rotate(90 9.5 27)" fill="#E6E7E9"/> -->
+                                    <!-- <rect x="9.5" y="30" width="1" height="9" transform="rotate(90 9.5 30)" fill="#E6E7E9"/> -->
+                                    <!-- <rect x="9.5" y="33" width="1" height="9" transform="rotate(90 9.5 33)" fill="#E6E7E9"/> -->
+                                <!-- </svg> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                        <!-- <div decoration="" class="c-ornement-icon app-2 w-embed"> -->
+                            <!-- <svg width="10" height="34" viewBox="0 0 10 34" fill="none" xmlns="http://www.w3.org/2000/svg"> -->
+                                <!-- <rect x="9.5" width="1" height="9" transform="rotate(90 9.5 0)" fill="#E6E7E9"/> -->
+                                <!-- <rect x="9.5" y="3" width="1" height="9" transform="rotate(90 9.5 3)" fill="#E6E7E9"/> -->
+                                <!-- <rect x="9.5" y="6" width="1" height="9" transform="rotate(90 9.5 6)" fill="#E6E7E9"/> -->
+                                <!-- <rect x="9.5" y="9" width="1" height="9" transform="rotate(90 9.5 9)" fill="#E6E7E9"/> -->
+                                <!-- <rect x="9.5" y="12" width="1" height="9" transform="rotate(90 9.5 12)" fill="#E6E7E9"/> -->
+                                <!-- <rect x="9.5" y="15" width="1" height="9" transform="rotate(90 9.5 15)" fill="#E6E7E9"/> -->
+                                <!-- <rect x="9.5" y="18" width="1" height="9" transform="rotate(90 9.5 18)" fill="#E6E7E9"/> -->
+                                <!-- <rect x="9.5" y="21" width="1" height="9" transform="rotate(90 9.5 21)" fill="#E6E7E9"/> -->
+                                <!-- <rect x="9.5" y="24" width="1" height="9" transform="rotate(90 9.5 24)" fill="#E6E7E9"/> -->
+                                <!-- <rect x="9.5" y="27" width="1" height="9" transform="rotate(90 9.5 27)" fill="#E6E7E9"/> -->
+                                <!-- <rect x="9.5" y="30" width="1" height="9" transform="rotate(90 9.5 30)" fill="#E6E7E9"/> -->
+                                <!-- <rect x="9.5" y="33" width="1" height="9" transform="rotate(90 9.5 33)" fill="#E6E7E9"/> -->
+                            <!-- </svg> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+                    <!-- <div vertical-text="" no-click="" class="c-ornement app-lt hide-landscape"> -->
+                        <!-- <div decoration="" class="c-ornement-icon hm-hero w-embed"> -->
+                            <!-- <svg width="9" height="34" viewBox="0 0 9 34" fill="none" xmlns="http://www.w3.org/2000/svg"> -->
+                                <!-- <g opacity="0.7"> -->
+                                    <!-- <rect x="9" width="1" height="9" transform="rotate(90 9 0)" fill="#FAFBFF"/> -->
+                                    <!-- <rect x="9" y="3" width="1" height="9" transform="rotate(90 9 3)" fill="#FAFBFF"/> -->
+                                    <!-- <rect x="9" y="6" width="1" height="9" transform="rotate(90 9 6)" fill="#FAFBFF"/> -->
+                                    <!-- <rect x="9" y="9" width="1" height="9" transform="rotate(90 9 9)" fill="#FAFBFF"/> -->
+                                    <!-- <rect x="9" y="12" width="1" height="9" transform="rotate(90 9 12)" fill="#FAFBFF"/> -->
+                                    <!-- <rect x="9" y="15" width="1" height="9" transform="rotate(90 9 15)" fill="#FAFBFF"/> -->
+                                    <!-- <rect x="9" y="18" width="1" height="9" transform="rotate(90 9 18)" fill="#FAFBFF"/> -->
+                                    <!-- <rect x="9" y="21" width="1" height="9" transform="rotate(90 9 21)" fill="#FAFBFF"/> -->
+                                    <!-- <rect x="9" y="24" width="1" height="9" transform="rotate(90 9 24)" fill="#FAFBFF"/> -->
+                                    <!-- <rect x="9" y="27" width="1" height="9" transform="rotate(90 9 27)" fill="#FAFBFF"/> -->
+                                    <!-- <rect x="9" y="30" width="1" height="9" transform="rotate(90 9 30)" fill="#FAFBFF"/> -->
+                                    <!-- <rect x="9" y="33" width="1" height="9" transform="rotate(90 9 33)" fill="#FAFBFF"/> -->
+                                <!-- </g> -->
+                            <!-- </svg> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+                <section class="c-section hm-hero wf-section">
+                    <div class="c-reel-contain hm-hero hide-tablet">
+                        <div no-click="" class="c-reel w-embed">
+                            <video style="width: 100%; height: 100%" class="plyr_video" playsinline controls muted autoplay loop>
+                                <source src="media/set-your-mind-free.mp4" type="video/mp4"/>
+                            </video>
+                        </div>
+                        <div class="c-reel-controls hide-tablet">
+                            <div vimeo="play" class="c-reel-play-wrap is-active">
+                                <div class="c-reel-play-icon w-embed">
+                                    <svg width="2em" height="2em" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.5 1C7.93959 1 1 7.93959 1 16.5C1 25.0604 7.93959 32 16.5 32C25.0604 32 32 25.0604 32 16.5C32 11.9991 30.0816 7.94629 27.0179 5.11461" stroke="white" stroke-width="2"/>
+                                        <path d="M23 16.5L13 11V22L23 16.5Z" stroke="#FAFBFF" stroke-width="2" stroke-linejoin="round"/>
+                                        <circle cx="16.5" cy="16.5" r="15.5" stroke="#FAFBFF" stroke-width="2"/>
+                                    </svg>
                                 </div>
                             </div>
-                            <div class="o-row hm-app">
-                                <div class="o-col _w-14 md-w-12 hide-landscape"></div>
-                                <div fade="" class="o-col _w-6 md-w-10 sm-w-20">
-                                    <div class="margin-40">
-                                        <p class="t-body-2">Found something that we can help you with? Write in 
-                              to find out more!.</p>
-                                    </div>
-                                    <div class="o-col">
-                                        <a id="w-node-_060fbb9c-011c-33d0-6735-e7a308e3a0e8-08e3a0e8" href="#" class="c-btn is-main w-inline-block"> <div class="c-btn-inner is-main">
-                                                <div class="c-btn-txt">
-                                                    <p class="t-label-4 is-1">GET IN TOUCH </p>
-                                                    <p no-click="" class="t-label-4 is-2"> </p>
-                                                </div>
-                                                <div class="c-btn-icon w-embed">
-                                                    <svg width="1.5em" height="1.5em" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M22.4883 11.5H2.48828M22.4883 11.5L13.4883 3M22.4883 11.5L13.4883 20" stroke="currentColor" stroke-width="1.5"/>
-                                                    </svg>
-                                                </div>
-                                            </div> </a>
-                                    </div>
+                            <div vimeo="pause" class="c-reel-pause-wrap">
+                                <div class="c-reel-pause-icon w-embed">
+                                    <svg width="2em" height="2em" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.5 1C7.93959 1 1 7.93959 1 16.5C1 25.0604 7.93959 32 16.5 32C25.0604 32 32 25.0604 32 16.5C32 11.9991 30.0816 7.94629 27.0179 5.11461" stroke="white" stroke-width="2"/>
+                                        <circle cx="16.5" cy="16.5" r="15.5" stroke="#FAFBFF" stroke-width="2"/>
+                                        <path d="M14 10V23.0002" stroke="white" stroke-width="2"/>
+                                        <path d="M19.002 10V23.0002" stroke="white" stroke-width="2"/>
+                                    </svg>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div vertical-text="" no-click="" class="c-ornement app-rt hide-landscape">
-                        <div vertical-text="" class="c-ornement-wrap hm-app">
-                            <div decoration="" class="t-micro-2">MSRS</div>
-                            <div decoration="" class="c-ornement-icon hm-hero w-embed">
-                                <svg width="10" height="34" viewBox="0 0 10 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="9.5" width="1" height="9" transform="rotate(90 9.5 0)" fill="#E6E7E9"/>
-                                    <rect x="9.5" y="3" width="1" height="9" transform="rotate(90 9.5 3)" fill="#E6E7E9"/>
-                                    <rect x="9.5" y="6" width="1" height="9" transform="rotate(90 9.5 6)" fill="#E6E7E9"/>
-                                    <rect x="9.5" y="9" width="1" height="9" transform="rotate(90 9.5 9)" fill="#E6E7E9"/>
-                                    <rect x="9.5" y="12" width="1" height="9" transform="rotate(90 9.5 12)" fill="#E6E7E9"/>
-                                    <rect x="9.5" y="15" width="1" height="9" transform="rotate(90 9.5 15)" fill="#E6E7E9"/>
-                                    <rect x="9.5" y="18" width="1" height="9" transform="rotate(90 9.5 18)" fill="#E6E7E9"/>
-                                    <rect x="9.5" y="21" width="1" height="9" transform="rotate(90 9.5 21)" fill="#E6E7E9"/>
-                                    <rect x="9.5" y="24" width="1" height="9" transform="rotate(90 9.5 24)" fill="#E6E7E9"/>
-                                    <rect x="9.5" y="27" width="1" height="9" transform="rotate(90 9.5 27)" fill="#E6E7E9"/>
-                                    <rect x="9.5" y="30" width="1" height="9" transform="rotate(90 9.5 30)" fill="#E6E7E9"/>
-                                    <rect x="9.5" y="33" width="1" height="9" transform="rotate(90 9.5 33)" fill="#E6E7E9"/>
-                                </svg>
+                    <div no-click="" class="c-overlay hide-tablet"></div>
+                    <div class="o-container z-index-2">
+                    
+                        <div class="o-row hm-hero margin-80">
+                            <div fade="" class="o-col _w-8 md-w-8 sm-w-16">
+                                <h1 class="t-display-4" style="margin-left:18px;text-align:left">Set your mind free with qualified professionals</h1>
                             </div>
                         </div>
-                        <div decoration="" class="c-ornement-icon app-2 w-embed">
-                            <svg width="10" height="34" viewBox="0 0 10 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <div class="o-row hm-hero-content margin-20">
+                            <div fade="" class="o-col _w-10 md-w-10 sm-w-22" style="line-height: 4;">
+                                <p class="t-display-6" style="margin-left:18px;">Found something that we can help you with? Write in to find out more!.</p>
+                                
+                                <button class="button-28" role="button" style="margin-left:18px;">GET IN TOUCH</button>
+                                <!--p class="t-body-2 indent-64 is-grey100">THINKING OF INCORPORATING A COMPANY?</p>
+                        <p class="t-body-2 indent-64 is-grey100">HAVING TROUBLE WITH GST REGISTRATION?</p>
+                        <p class="t-body-2 indent-64 is-grey100">NEED HELP WITH BOOKKEEPING OR FINANCIAL STATEMENTS?.</p-->
+                            </div>
+                            <div class="o-col _w-3 hide-tablet"></div>
+                            <a href="#footer" aria-label="Arrow" class="c-arrow-link hm-hero w-inline-block"> <div class="c-arrow w-embed">
+                                    <svg width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.5 22L11.5 2M11.5 22L3 13M11.5 22L20 13" stroke="currentColor" stroke-width="1.5"/>
+                                    </svg>
+                                </div> </a>
+                        </div>
+                    </div>
+                    <div vertical-text="" no-click="" class="c-ornement hm-hero-rt hide-tablet">
+                        <div decoration="" class="t-micro-2">MSRS</div>
+                        <div class="c-ornement-icon hm-hero w-embed">
+                            <svg width="10" height="34" class="ornament-xxl" viewBox="0 0 10 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="9.5" width="1" height="9" transform="rotate(90 9.5 0)" fill="#E6E7E9"/>
                                 <rect x="9.5" y="3" width="1" height="9" transform="rotate(90 9.5 3)" fill="#E6E7E9"/>
                                 <rect x="9.5" y="6" width="1" height="9" transform="rotate(90 9.5 6)" fill="#E6E7E9"/>
@@ -1085,28 +1211,14 @@
                             </svg>
                         </div>
                     </div>
-                    <div vertical-text="" no-click="" class="c-ornement app-lt hide-landscape">
-                        <div decoration="" class="c-ornement-icon hm-hero w-embed">
-                            <svg width="9" height="34" viewBox="0 0 9 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g opacity="0.7">
-                                    <rect x="9" width="1" height="9" transform="rotate(90 9 0)" fill="#FAFBFF"/>
-                                    <rect x="9" y="3" width="1" height="9" transform="rotate(90 9 3)" fill="#FAFBFF"/>
-                                    <rect x="9" y="6" width="1" height="9" transform="rotate(90 9 6)" fill="#FAFBFF"/>
-                                    <rect x="9" y="9" width="1" height="9" transform="rotate(90 9 9)" fill="#FAFBFF"/>
-                                    <rect x="9" y="12" width="1" height="9" transform="rotate(90 9 12)" fill="#FAFBFF"/>
-                                    <rect x="9" y="15" width="1" height="9" transform="rotate(90 9 15)" fill="#FAFBFF"/>
-                                    <rect x="9" y="18" width="1" height="9" transform="rotate(90 9 18)" fill="#FAFBFF"/>
-                                    <rect x="9" y="21" width="1" height="9" transform="rotate(90 9 21)" fill="#FAFBFF"/>
-                                    <rect x="9" y="24" width="1" height="9" transform="rotate(90 9 24)" fill="#FAFBFF"/>
-                                    <rect x="9" y="27" width="1" height="9" transform="rotate(90 9 27)" fill="#FAFBFF"/>
-                                    <rect x="9" y="30" width="1" height="9" transform="rotate(90 9 30)" fill="#FAFBFF"/>
-                                    <rect x="9" y="33" width="1" height="9" transform="rotate(90 9 33)" fill="#FAFBFF"/>
-                                </g>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                <footer id="footer" logo-light="" class="c-section footer wf-section">
+                    <!-- <div class="c-pause"></div> -->
+                    <!-- <div class="c-img-contain pause"> -->
+                        <!-- <img src="https://uploads-ssl.webflow.com/6356a48dff70251d68facdf8/63a4880cc492cbb895f300d8_hm-pause.webp" loading="lazy" alt="" class="c-img"/> -->
+                        <!-- <div class="c-overlay pause"></div> -->
+                    <!-- </div> -->
+                </section>
+
+               <footer id="footer" logo-light="" class="c-section footer wf-section">
                     <div class="o-container z-index-1" style="flex-direction: row-reverse; align-items: center; justify-content: center; flex-wrap: nowrap; align-content: center; text-align: left; overflow: hidden; vertical-align: middle; position: relative;">
                         <div class="o-grid footer margin-216" style="align-content: center;">
                             <div fade="" id="w-node-_8b47a8fd-9a90-79f4-55d2-724ef071c3f1-fd5d6cpo" class="o-col">
