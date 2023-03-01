@@ -2174,7 +2174,7 @@ color:#fff;
  display:-webkit-flex;
  display:-ms-flexbox;
  display:flex;
- height:55.25em;
+ height:61.25em;
  padding-top:1.25em;
  padding-bottom:9.75em;
  -webkit-box-orient:vertical;
@@ -9246,6 +9246,9 @@ color:#fff;
   background-position: center center;
   max-height:316px;
   max-width:444px; opacity:.6;
+  justify-content:center;
+  /* justify-items: center; */
+    text-align: center;
 }
 
 #w-node-d2d16d4c-54a5-54f9-a290-720ca28a0305-d9aae086{
@@ -9259,7 +9262,8 @@ color:#fff;
   background-size: cover;
   background-position: center center;
   max-height:316px;
-  max-width:444px; opacity:.6;
+  max-width:444px; opacity:.6; justify-content:center;justify-items: center;
+    text-align: center;
 }
 
 #w-node-_0f7dca71-f3b7-b33c-ff85-fe34b7498da7-d9aae086{
@@ -9273,7 +9277,8 @@ color:#fff;
   background-size: cover;
   background-position: center center;
   max-height:316px;
-  max-width:444px; opacity:.6;
+  max-width:444px; opacity:.6; justify-content:center;justify-items: center;
+    text-align: center;
 }
 
 #w-node-_550d898a-f264-f17e-250b-d591f6d243a9-d9aae086{
@@ -9287,7 +9292,8 @@ color:#fff;
   background-size: cover;
   background-position: center center;
   max-height:316px;
-  max-width:444px; opacity:.6;
+  max-width:444px; opacity:.6; justify-content:center;justify-items: center;
+    text-align: center;
 }
 
 #w-node-b3735a09-29f8-9190-f762-e8c45305946e-d9aae086{
@@ -9301,7 +9307,8 @@ color:#fff;
   background-size: cover;
   background-position: center center;
   max-height:316px;
-  max-width:444px; opacity:.6;
+  max-width:444px; opacity:.6; justify-content:center;justify-items: center;
+    text-align: center;
 }
 
 #w-node-fdc98abd-2b4e-4718-5758-af98972831cf-d9aae086{
@@ -9316,7 +9323,8 @@ color:#fff;
   background-position: center center;
   max-height:316px;
   max-width:444px;
-  opacity:.6;
+  opacity:.6; justify-content:center;justify-items: center;
+    text-align: center;
 }
 
 
