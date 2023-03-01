@@ -2909,6 +2909,7 @@ color:#fff;
  /*! grid-column-gap:1.5em; */
  /*! grid-row-gap:1.5em; */
  -ms-grid-columns:1fr 1fr 1fr 1fr 1fr;
+ text-align: left !important;
  grid-template-columns:1fr 1fr 1fr 1fr 1fr
 }
 .o-grid.legal {
