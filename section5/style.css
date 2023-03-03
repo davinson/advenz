@@ -3178,7 +3178,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	top: 50%;
 	left: 0;
 	margin-top: -26px;
-	background-color: rgba(0,0,0,0.3);
+	/*! background-color: rgba(0,0,0,0.3); */
 	width: 52px;
 	height: 52px;
 	border: 0;
@@ -3255,12 +3255,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 
 .slider-element .owl-next i { margin-right: 4px; }
 
-.slider-arrow-left:hover,
-.slider-arrow-right:hover,
-.flex-prev:hover,
-.flex-next:hover,
-.slider-arrow-top-sm:hover,
-.slider-arrow-bottom-sm:hover { background-color: rgba(0,0,0,0.6) !important; }
+
 
 
 /* Slide Number
