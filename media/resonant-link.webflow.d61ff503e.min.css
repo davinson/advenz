@@ -5092,9 +5092,10 @@ color:#fff;
  -webkit-box-align:start;
  -webkit-align-items:flex-start;
  -ms-flex-align:start;
- align-items:flex-start;
+ align-items:center;
  grid-column-gap:0.5em;
  grid-row-gap:0.5em 
+ 
 }
 .is-right {
  text-align:right 
@@ -9241,7 +9242,8 @@ color:#fff;
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('https://source.unsplash.com/random/444x316?sig=1');
+  /* background-image: url('https://source.unsplash.com/random/444x316?sig=1'); */
+  background-image: url('./why_1.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -9258,7 +9260,8 @@ color:#fff;
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('https://source.unsplash.com/random/444x316?sig=2');
+   background-image: url('./why_2.png');
+  /* background-image: url('https://source.unsplash.com/random/444x316?sig=2'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -9274,7 +9277,8 @@ color:#fff;
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('https://source.unsplash.com/random/444x316?sig=3');
+  background-image: url('./why_3.png');
+  /* background-image: url('https://source.unsplash.com/random/444x316?sig=3'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -9290,7 +9294,8 @@ color:#fff;
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('https://source.unsplash.com/random/444x316?sig=4');
+  background-image: url('./why_4.png');
+  /* background-image: url('https://source.unsplash.com/random/444x316?sig=4'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -9306,7 +9311,8 @@ color:#fff;
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('https://source.unsplash.com/random/444x316?sig=5');
+  background-image: url('./why_5.png');
+  /* background-image: url('https://source.unsplash.com/random/444x316?sig=5'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -9322,7 +9328,8 @@ color:#fff;
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('https://source.unsplash.com/random/444x316?sig=6');
+  background-image: url('./why_6.png');
+  /* background-image: url('https://source.unsplash.com/random/444x316?sig=6'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
