@@ -9243,7 +9243,7 @@ color:#fff;
   right: 0;
   bottom: 0;**/
   /* background-image: url('https://source.unsplash.com/random/444x316?sig=1'); */
-  background-image: url('./why_1.png');
+  background-image: linear-gradient(0deg, rgba(8, 7, 7, 0.52), rgba(26, 19, 23, 0.98)), url(./why_1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -9260,7 +9260,7 @@ color:#fff;
   left: 0;
   right: 0;
   bottom: 0;**/
-   background-image: url('./why_2.png');
+  background-image: linear-gradient(0deg, rgba(8, 7, 7, 0.52), rgba(26, 19, 23, 0.98)), url(./why_2.png);;
   /* background-image: url('https://source.unsplash.com/random/444x316?sig=2'); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -9277,7 +9277,7 @@ color:#fff;
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('./why_3.png');
+  background-image: linear-gradient(0deg, rgba(8, 7, 7, 0.52), rgba(26, 19, 23, 0.98)), url(./why_3.png);
   /* background-image: url('https://source.unsplash.com/random/444x316?sig=3'); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -9294,7 +9294,7 @@ color:#fff;
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('./why_4.png');
+  background-image: linear-gradient(0deg, rgba(8, 7, 7, 0.52), rgba(26, 19, 23, 0.98)), url(./why_4.png);
   /* background-image: url('https://source.unsplash.com/random/444x316?sig=4'); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -9311,7 +9311,7 @@ color:#fff;
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('./why_5.png');
+  background-image: linear-gradient(0deg, rgba(8, 7, 7, 0.52), rgba(26, 19, 23, 0.98)), url(./why_5.png);
   /* background-image: url('https://source.unsplash.com/random/444x316?sig=5'); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -9328,7 +9328,7 @@ color:#fff;
   left: 0;
   right: 0;
   bottom: 0;**/
-  background-image: url('./why_6.png');
+ background-image: linear-gradient(0deg, rgba(8, 7, 7, 0.52), rgba(26, 19, 23, 0.98)), url(./why_6.png);
   /* background-image: url('https://source.unsplash.com/random/444x316?sig=6'); */
   background-repeat: no-repeat;
   background-size: cover;
