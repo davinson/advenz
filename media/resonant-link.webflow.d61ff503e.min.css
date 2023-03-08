@@ -9406,7 +9406,7 @@ color:#fff;
 /* } */
 .oculto{
     opacity:0;
-   
+   padding-top:8px;
 }
 
 .c-card:hover .oculto{
