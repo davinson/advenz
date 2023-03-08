@@ -5544,14 +5544,14 @@ color:#fff;
 .c-card.download {
  height:31em;
  padding-right:7em;
- border-color:#141519;
+ border-color:#213fbb;
  -webkit-transition:color .6s,background-color .6s;
  transition:color .6s,background-color .6s; 
  /* align-items: center; */
  /*! justify-content: center; */
 }
 .c-card.download:hover {
- background-color:#141519;
+ background-color:#263884
  color:#fafbff 
 }
 .c-card.values {
