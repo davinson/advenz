@@ -9433,3 +9433,55 @@ color:#fff;
     /* grid-row-gap: 0.5em; */
     /* padding-right: 709px; */
 /* } */
+
+.list-1 {
+    /* * position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;* */
+    background-image: url('./list1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.list-2 {
+    /* * position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;* */
+    background-image: url('./list2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.list-3 {
+    /* * position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;* */
+    background-image: url('./list3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.list-4 {
+    /* * position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;* */
+    background-image: url('./list4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
