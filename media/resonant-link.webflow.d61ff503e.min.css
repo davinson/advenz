@@ -3179,8 +3179,8 @@ c-logo-img img {
     margin-right: auto;
     margin-left: auto;
 
-    /* ! padding-right:1.25em; */
-    /* ! padding-left:1.25em */
+     padding-right:1.25em;
+     padding-left:1.25em 
 }
 
 .o-container.z-index-1.hm-app {
@@ -10591,8 +10591,8 @@ c-logo-img img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    max-height: 316px;
-    max-width: 444px;
+    height: 316px;
+    width: 100%;
     opacity: .6;
     justify-content: center !important;
     justify-items: center !important;
@@ -10611,8 +10611,8 @@ c-logo-img img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    max-height: 316px;
-    max-width: 444px;
+    height: 316px;
+    width: 100%;
     opacity: .6;
     justify-content: center !important;
     justify-items: center !important;
@@ -10631,8 +10631,8 @@ c-logo-img img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    max-height: 316px;
-    max-width: 444px;
+    height: 316px;
+     width: 100%;
     opacity: .6;
     justify-content: center !important;
     justify-items: center !important;
@@ -10651,8 +10651,8 @@ c-logo-img img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    max-height: 316px;
-    max-width: 444px;
+    height: 316px;
+    width: 100%;
     opacity: .6;
     justify-content: center !important;
     justify-items: center !important;
@@ -10671,8 +10671,8 @@ c-logo-img img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    max-height: 316px;
-    max-width: 444px;
+    height: 316px;
+     width: 100%;
     opacity: .6;
     justify-content: center !important;
     justify-items: center !important;
@@ -10691,8 +10691,8 @@ c-logo-img img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    max-height: 316px;
-    max-width: 444px;
+    height: 316px;
+     width: 100%;
     opacity: .6;
     justify-content: center !important;
     justify-items: center !important;
@@ -10764,7 +10764,6 @@ c-logo-img img {
 /* } */
 .oculto {
     opacity: 0;
-    padding-top: 8px;
 }
 
 .c-card:hover .oculto {
@@ -10800,6 +10799,7 @@ c-logo-img img {
     background-size: cover;
     background-position: center center;
     color: #fff;
+    width:100%;
 }
 
 .list-2 {
@@ -10813,6 +10813,7 @@ c-logo-img img {
     background-size: cover;
     background-position: center center;
     color: #fff;
+    width:100%;
 }
 
 .list-3 {
@@ -10826,6 +10827,7 @@ c-logo-img img {
     background-size: cover;
     background-position: center center;
     color: #fff;
+    width:100%;
 }
 
 .list-4 {
@@ -10839,4 +10841,5 @@ c-logo-img img {
     background-size: cover;
     background-position: center center;
     color: #fff;
+    width:100%;
 }
