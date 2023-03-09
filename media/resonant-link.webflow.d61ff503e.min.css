@@ -10592,7 +10592,7 @@ c-logo-img img {
     background-size: cover;
     background-position: center center;
     height: 316px;
-    width: 100%;
+    width: 100% !important;
     opacity: .6;
     justify-content: center !important;
     justify-items: center !important;
@@ -10612,7 +10612,7 @@ c-logo-img img {
     background-size: cover;
     background-position: center center;
     height: 316px;
-    width: 100%;
+    width: 100% !important;
     opacity: .6;
     justify-content: center !important;
     justify-items: center !important;
@@ -10632,7 +10632,7 @@ c-logo-img img {
     background-size: cover;
     background-position: center center;
     height: 316px;
-     width: 100%;
+     width: 100% !important;
     opacity: .6;
     justify-content: center !important;
     justify-items: center !important;
@@ -10652,7 +10652,7 @@ c-logo-img img {
     background-size: cover;
     background-position: center center;
     height: 316px;
-    width: 100%;
+    width: 100% !important;
     opacity: .6;
     justify-content: center !important;
     justify-items: center !important;
@@ -10672,7 +10672,7 @@ c-logo-img img {
     background-size: cover;
     background-position: center center;
     height: 316px;
-     width: 100%;
+     width: 100%  !important;
     opacity: .6;
     justify-content: center !important;
     justify-items: center !important;
@@ -10692,7 +10692,7 @@ c-logo-img img {
     background-size: cover;
     background-position: center center;
     height: 316px;
-     width: 100%;
+     width: 100% !important;
     opacity: .6;
     justify-content: center !important;
     justify-items: center !important;
