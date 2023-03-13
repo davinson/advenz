@@ -3214,6 +3214,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	left: auto;
 	right: 0;
 	border-radius: 3px 0 0 3px;
+	margin-right: -0.3em;
 }
 
 .slider-arrow-left i,
