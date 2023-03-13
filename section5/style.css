@@ -14030,7 +14030,7 @@ body:not(.no-transition) #wrapper,
 	left: auto;
 	top: auto;
 	right: 0;
-	bottom: 0;
+	bottom: 4px;
 	z-index: 25;
 	-webkit-box-pack: end;
 	-webkit-justify-content: flex-end;
